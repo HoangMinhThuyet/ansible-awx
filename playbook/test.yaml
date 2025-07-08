@@ -1,0 +1,9 @@
+---
+- hosts: vm-tool
+  tasks:
+    - name: check IP
+      command: ip a
+    - name: Check Hostname
+      command: hostname
+    - name: check os
+      command: uname
